@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="aa64-1e8e-66fc-9abf" name="Fantasy Battles: The 9th Age 2.0 Beta" revision="11" battleScribeVersion="2.01" authorName="Karanadon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="aa64-1e8e-66fc-9abf" name="Fantasy Battles: The 9th Age 2.0 Beta" revision="17" battleScribeVersion="2.01" authorName="Karanadon" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -1547,7 +1547,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="3651-f3f0-41ef-0504" value="3.5">
+            <modifier type="increment" field="3651-f3f0-41ef-0504" value="3">
               <repeats>
                 <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
               </repeats>
@@ -1591,108 +1591,6 @@
           </modifiers>
           <constraints>
             <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fe15-a0db-3395-15ca" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="e51a-898b-4a2f-5b52" name="Sylvan Elves - Oaken Crown" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <forceEntries/>
-      <categoryLinks>
-        <categoryLink id="63ab-7e63-1962-cd48" name="Characters" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="41a5-2ca1-c2ed-517b" value="4">
-              <repeats>
-                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="41a5-2ca1-c2ed-517b" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="680d-e083-d94c-26aa" name="Core" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="6aa8-f15d-699e-dbd2" value="2.5">
-              <repeats>
-                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6aa8-f15d-699e-dbd2" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="3c83-1aa4-231c-11ff" name="Special" hidden="false" targetId="f8f1-3d4f-12bf-73cd" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-        <categoryLink id="6cb4-d6df-1769-0cf9" name="Unseen Arrows" hidden="false" targetId="fd02-94df-6a9b-24d5" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="b0ad-ed06-3366-c167" value="1">
-              <repeats>
-                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b0ad-ed06-3366-c167" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="6ade-9ebe-e1a4-2e14" name="Fleet of Foot" hidden="false" targetId="5be1-ab92-d6dc-68e2" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="9748-f0cf-aff3-1fbc" value="1.5">
-              <repeats>
-                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9748-f0cf-aff3-1fbc" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="2828-7eb4-1f84-53c1" name="Forest Giants" hidden="false" targetId="5479-2126-272c-a9e3" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="7bc3-0127-6c6a-6c37" value="4">
-              <repeats>
-                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7bc3-0127-6c6a-6c37" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -2360,6 +2258,91 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="a9a3-87a4-1a3e-c53b" name="Vampire Covenant - No Bloodlines" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="fa88-7369-daff-efd4" name="Characters" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="1b55-b589-4ab6-5cf7" value="4">
+              <repeats>
+                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1b55-b589-4ab6-5cf7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1765-9600-3495-cc73" name="Core" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="c88e-bb65-e8f6-716d" value="2.5">
+              <repeats>
+                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c88e-bb65-e8f6-716d" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="990c-d7a9-6232-c573" name="Special" hidden="false" targetId="f8f1-3d4f-12bf-73cd" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b9e9-1012-2d70-ba54" name="The Suffering" hidden="false" targetId="ce40-9d61-830e-cdef" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="da74-0312-f00c-d913" value="2">
+              <repeats>
+                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="da74-0312-f00c-d913" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="69ea-5692-35c0-09b3" name="Swift Death" hidden="false" targetId="0adc-f4e6-0c6b-c21b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d0b8-0975-7f52-d2e8" value="3">
+              <repeats>
+                <repeat field="limit::24fd-8af8-0c78-001c" scope="roster" value="10.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="24fd-8af8-0c78-001c" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0b8-0975-7f52-d2e8" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks/>
@@ -2391,15 +2374,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2f2-85bc-ce11-c49d" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="a907-52b7-4f2c-7823" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="2f88-9ecd-8c12-0dcb" name="Titanic Might" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2426,7 +2401,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="70.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="65.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="311e-5a0b-83f2-9069" name="Blessed Inscriptions" hidden="false" collective="false" type="upgrade">
@@ -2510,7 +2485,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eedf-4585-d0c1-f613" name="Hero&apos;s Heart" hidden="false" collective="false" type="upgrade">
@@ -2538,7 +2513,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="315a-5ef6-a1b7-336b" name="Touch of Greatness" hidden="false" collective="false" type="upgrade">
@@ -2566,7 +2541,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="dd35-7a49-6952-982e" name="Supernatural Dexterity" hidden="false" collective="false" type="upgrade">
@@ -2645,15 +2620,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="757a-d5c1-6cf9-bd2f" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="125c-0c8c-c1ca-8d30" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="9e1c-64e0-ee91-9065" name="Death Cheater" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2664,7 +2631,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Suit of Armour Enchantment"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The wearer gains Regeneration (4+) and +1 Armour."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The wearer gains Fortitude (4+) and +1 Armour."/>
               </characteristics>
             </profile>
           </profiles>
@@ -2680,7 +2647,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="90.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="95.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f961-86c2-9c05-26b8" name="Destiny&apos;s Call - Standard Size only" hidden="false" collective="false" type="upgrade">
@@ -2736,7 +2703,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="65.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7826-dc11-ac6b-51c3" name="Dusk Forged" hidden="false" collective="false" type="upgrade">
@@ -2748,7 +2715,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Shield Enchantment"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer may choose to reroll its failed Armour Saves while using this Shield. If it does, it cannot take Aegis or Regeneration Saves."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer may choose to reroll its failed Armour Saves while using this Shield. If it does, it automatically fails all special saves."/>
               </characteristics>
             </profile>
           </profiles>
@@ -2785,7 +2752,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Heavy Armour and Plate Armour enchantment."/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The wearer gains +2 Armour. This Armour Enchantment cannot be used against Magical Attacks."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The wearer gains +2 Armour against non-Magical Attacks."/>
               </characteristics>
             </profile>
           </profiles>
@@ -2813,7 +2780,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Suit of Armour Enchantment"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The wearer gains +1 Armour and Aegis (2+, against Flaming Attacks). The wearer cannot benefit from Regeneration."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The wearer gains +1 Armour and Aegis (3+, against Flaming Attacks). The wearer automatically fails all Fortitude saves."/>
               </characteristics>
             </profile>
           </profiles>
@@ -2841,7 +2808,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Shield Enchantment"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer cannot use Parry and gains +1 Armour. Impact Hits distributed towards the bearer always have Armour Penetration 0."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer cannot use Parry and gains +1 Armour. Impact Hits distributed towards the bearer suffer -2 Armour Penetration."/>
               </characteristics>
             </profile>
           </profiles>
@@ -2909,15 +2876,7 @@
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="e675-85da-422d-e83d" type="max"/>
       </constraints>
-      <categoryLinks>
-        <categoryLink id="0256-42ea-5faa-109f" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
+      <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="28c9-d1c6-a0c8-d695" name="Crown of the Wizard King - Cannot be taken by Wizards" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2944,10 +2903,10 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="02ee-20af-e439-e56f" name="Book of Arcane Power - Dominant. Cannot be taken by Wizard Master." hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="02ee-20af-e439-e56f" name="Book of Arcane Mastery - Dominant. Cannot be taken by Wizard Master." hidden="false" collective="false" type="upgrade">
           <profiles>
             <profile id="1fda-2a73-aee7-500b" name="Book of Arcane Power" hidden="false" profileTypeId="5bba-441c-01cb-6187" profileTypeName="Artefact">
               <profiles/>
@@ -2956,7 +2915,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Artefact"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="A Wizard with this Artefact gains a +1 modifier to its casting rolls."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The Bearer&apos;s first casting attempt in each magic phase gains +2 to cast. When using a single magic dice for this casting attempt, a natural roll of 1 or 2 on the magic dice is always a failed casting attempt, regardless of any modifiers."/>
               </characteristics>
             </profile>
           </profiles>
@@ -2972,7 +2931,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f996-0dd2-7d1f-17fe" name="Crown of Autocracy" hidden="false" collective="false" type="upgrade">
@@ -2984,7 +2943,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Artefact"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer gains +1 Discipline. This modifier cannot be used to increase the bearer&apos;s Discipline above 10. If taken by the General, the opponent doubles the Victory Points bonus for killing this General (normally +400 instead of +200)."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer gains +1 Discipline. If taken by the General, the opponent doubles the Victory Points bonus for killing this General (normally +400 instead of +200)."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3028,7 +2987,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2078-81dc-eac0-b856" name="Rod of Battle" hidden="false" collective="false" type="upgrade">
@@ -3056,7 +3015,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3f7d-5a54-b1ca-550f" name="Binding Scroll" hidden="false" collective="false" type="upgrade">
@@ -3068,7 +3027,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Artefact"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="One use only. May be activated at the start of a Magic Phase. When activated, pick an enemy model and select one of its spells (including Attribute and Bound Spells). The chosen model cannot cast the selected spell during this Magic Phase. Only a single Binding Scroll may be activated during the same Phase."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="One use only. May be activated after siphon the veil. When activated, pick an enemy model and select one of its spells (including Attribute and Bound Spells). The chosen model cannot cast the selected spell during this Magic Phase. Only a single Binding Scroll may be activated during the same Phase."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3077,7 +3036,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6c83-b58e-1f17-6ad6" type="max"/>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d25c-e7c0-d71c-3dce" type="max"/>
+            <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d25c-e7c0-d71c-3dce" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -3139,7 +3098,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="25.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3d77-9d65-58c3-9e7d" name="Lightning Vambraces" hidden="false" collective="false" type="upgrade">
@@ -3167,7 +3126,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8cca-6eee-ecd5-1620" name="Talisman of Shielding" hidden="false" collective="false" type="upgrade">
@@ -3250,7 +3209,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="52aa-545b-5fc8-64fe" name="Scepter of Power - Dominant" hidden="false" collective="false" type="upgrade">
@@ -3305,7 +3264,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b996-d7ae-e854-2601" name="Dragon Staff" hidden="false" collective="false" type="upgrade">
@@ -3345,7 +3304,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Artefact"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="After Spell Selection (at the end of step 7 of the Pre-Game Sequence), mark a single enemy model in the opponent’s Army List. All dispelling attempts of spells cast by that model gain a +1 to dispel modifier."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="After Spell Selection (at the end of step 7 of the Pre-Game Sequence), mark a single enemy model in the opponent’s Army List. All dispelling attempts of spells cast by that model gain a +1 dispelling modifier, provided the bearer is on the battlefield."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3373,7 +3332,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Artefact"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer gains Aegis (2+, against Flaming Attacks). The wearer cannot benefit from Regeneration."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer gains Aegis (2+, against Flaming Attacks). The bearer automatically fails all Fortitude Saves."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3401,7 +3360,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Artefact"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="One use only. May be activated at the start of any Phase or Round of Combat. Until the end of the Player Turn, the bearer gains +3 Agility, to a maximum of 10."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="One use only. May be activated at the start of any Phase or Round of Combat. Until the end of the Player Turn, the bearer gains +3 Agility."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3471,7 +3430,7 @@
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Banner"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="One use only. May be activated at the start of a Round of Combat. Close Combat Attacks from R&amp;F models ina unit with one or more Rending Banners gain +1 Armour Penetration. This effect lasts until the bearer’s unit is no longer Engaged in Combat."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="One use only. May be activated at the start of a Round of Combat. Close Combat Attacks from R&amp;F models in the bearer&apos;s unit gain +1 Armour Penetration until they are no longer engaged in combat. A model can only be affected by a single Rending Banner at the same time."/>
               </characteristics>
             </profile>
           </profiles>
@@ -3479,7 +3438,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0350-9e05-ca07-ed9c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0350-9e05-ca07-ed9c" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f86-7262-dd94-d986" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -3507,7 +3466,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50fe-79c3-0999-f3d2" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="50fe-79c3-0999-f3d2" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ab92-8898-f49d-2e42" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -3543,7 +3502,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="719b-6dee-2a2a-8e74" name="Banner of Discipline" hidden="false" collective="false" type="upgrade">
@@ -3563,7 +3522,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dbb-f9a9-a6bf-f7df" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0dbb-f9a9-a6bf-f7df" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1ac8-5d6c-8439-7620" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -3591,7 +3550,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3c7-a190-7c17-3f30" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3c7-a190-7c17-3f30" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b09f-a35b-70d7-2b9f" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -3599,7 +3558,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="35.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5bf4-2476-8235-9323" name="Banner of the Relentless Company" hidden="false" collective="false" type="upgrade">
@@ -3619,7 +3578,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9245-eb29-5a53-326c" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9245-eb29-5a53-326c" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4902-c868-a2e0-52a8" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -3627,7 +3586,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="35.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="59ec-00bd-1953-e80a" name="Flaming Standard" hidden="false" collective="false" type="upgrade">
@@ -3647,7 +3606,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee51-134a-e6b2-13c8" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee51-134a-e6b2-13c8" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e072-9a53-d5c8-39ad" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -3675,7 +3634,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e800-e25e-5784-8e38" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e800-e25e-5784-8e38" type="max"/>
             <constraint field="selections" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c5f-5d36-da6c-3028" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -4167,12 +4126,12 @@ be placed in either of these positions. If the War Platform cannot be placed in 
       <modifiers/>
       <description>Parry can only be used against Close Combat Attacks from the Front Facing. The model gains +1 Defensive Skill, or its Defensive Skill is always equal to the Offensive Skill of the attacker, whichever is higher.</description>
     </rule>
-    <rule id="faef-6f9d-ae02-d420" name="Regeneration" hidden="false">
+    <rule id="faef-6f9d-ae02-d420" name="Fortitude" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>Regeneration is a Special Save. Regeneration Saves cannot be taken against attacks with Lethal Strike that rolled a natural 6+ to wound, or against attacks with Flaming Attacks.</description>
+      <description>Fortitude is a Special Save. Fortitude Saves cannot be taken against attacks with Lethal Strike that rolled a natural 6+ to wound, or against attacks with Flaming Attacks.</description>
     </rule>
     <rule id="4966-e452-f252-6176" name="Aegis" hidden="false">
       <profiles/>
@@ -4330,7 +4289,7 @@ Some Penetrating attacks have a higher Strength and/or additional Attack Attribu
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>The attack has its Strength set to 3 and its Armour Penetration set to 10 .</description>
+      <description>The attack has its Strength always set to 3 and its Armour Penetration always set to 10 .</description>
     </rule>
     <rule id="c545-6ef2-4618-4d0f" name="Unwieldy" hidden="false">
       <profiles/>
@@ -4539,7 +4498,7 @@ In multipart models, only model parts that also have Restraints can use Stomp At
       <characteristics>
         <characteristic name="Range" characteristicTypeId="c2a8-bc01-360c-6aca" value="30&quot;"/>
         <characteristic name="Shots" characteristicTypeId="6867-dcc2-7874-e3b4" value="1"/>
-        <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="1"/>
+        <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="3"/>
         <characteristic name="AP" characteristicTypeId="857a-4ce1-d134-8701" value="0"/>
         <characteristic name="Attributes" characteristicTypeId="d988-3828-5f00-7582" value="Volley Fire"/>
       </characteristics>

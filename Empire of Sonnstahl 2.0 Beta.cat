@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1aa5-c442-6972-b551" name="Empire of Sonnstahl 2.0 Beta" revision="6" battleScribeVersion="2.01" gameSystemId="aa64-1e8e-66fc-9abf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1aa5-c442-6972-b551" name="Empire of Sonnstahl 2.0 Beta" revision="7" battleScribeVersion="2.01" gameSystemId="aa64-1e8e-66fc-9abf" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -53,8 +53,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="5"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -123,7 +122,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d418-0b46-3c6c-756e" name="Army General" hidden="false" collective="false" type="upgrade">
@@ -172,7 +171,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e9d8-2ed3-ece1-c7a4" name="Special Equipment" hidden="false" collective="false" type="upgrade">
@@ -328,7 +327,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="59ac-a985-3c55-5413" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -359,7 +358,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb00-4e0e-2023-9da1" name="Pistol (2+)" hidden="false" collective="false" type="upgrade">
@@ -396,7 +395,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -441,7 +440,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5221-22b7-accf-79b7" name="Imperial​ ​Prince" hidden="false" collective="false" type="upgrade">
@@ -463,7 +462,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Cannot be taken by a Battle Standard Bearer. An Imperial Prince must be the General, gains +1 Attack Value, and is equipped with a Hand Weapon enchanted with The Light of Sonnstahl. An Imperial Prince may not enchant any other weapons it may carry and may only take up to 50 pts of Special Equipment.</description>
+                  <description>General Only. The model part gains +1 Attack Value, and is equipped with a Hand Weapon enchanted with The Light of Sonnstahl. An Imperial Prince may only take up to 50 pts of Special Equipment.</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -493,7 +492,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="175.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="175.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -538,7 +537,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="eeb0-b91d-78be-cd07" name="Great Weapon" hidden="false" collective="false" type="upgrade">
@@ -561,7 +560,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f0f-0572-09a3-006c" name="Halberd" hidden="false" collective="false" type="upgrade">
@@ -584,7 +583,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a3ec-d371-66fd-ebb1" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -615,7 +614,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -663,7 +662,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="90">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="85">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -687,7 +686,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="175">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="150">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -725,7 +724,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="475">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="460">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -763,7 +762,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="160.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="11c8-5e24-f965-a22b" name="Knight​ ​Commander​" hidden="false" collective="false" type="upgrade">
@@ -803,8 +802,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="6"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -867,7 +865,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8293-0c1c-c0f9-660d" name="Special Equipment" hidden="false" collective="false" type="upgrade">
@@ -962,7 +960,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c04c-0180-7ac5-bd26" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -993,7 +991,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1036,7 +1034,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e896-c62f-a29b-cf2d" name="Great Weapon" hidden="false" collective="false" type="upgrade">
@@ -1059,7 +1057,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2d39-1ca3-f6ac-a7cf" name="Halberd" hidden="false" collective="false" type="upgrade">
@@ -1082,7 +1080,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2871-3cac-8e68-ae22" name="Lance" hidden="false" collective="false" type="upgrade">
@@ -1105,7 +1103,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1119,7 +1117,7 @@
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="916b-cd49-2cc7-20fe" type="max"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbf-e4ab-435a-bcab" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fbf-e4ab-435a-bcab" type="min"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
@@ -1148,7 +1146,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="20">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="30">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1172,7 +1170,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="200.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="200.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e69-caa4-e244-5abf" name="Prelate" hidden="false" collective="false" type="upgrade">
@@ -1212,8 +1210,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="5"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1300,7 +1297,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7d8f-4c02-e412-6f62" name="Special Equipment" hidden="false" collective="false" type="upgrade">
@@ -1395,7 +1392,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a389-48a0-8d18-9ad7" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -1426,7 +1423,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="36bd-7551-d73e-6fed" name="Plate Armour" hidden="false" collective="false" type="upgrade">
@@ -1457,7 +1454,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1500,7 +1497,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a256-ae1f-b845-ab2a" name="Paired Weapons" hidden="false" collective="false" type="upgrade">
@@ -1523,7 +1520,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1547,7 +1544,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="50">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="40">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1571,7 +1568,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="400">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="390">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1602,7 +1599,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="160.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="160.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53b0-be9b-6101-a832" name="Wizard" hidden="false" collective="false" type="upgrade">
@@ -1642,8 +1639,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1691,7 +1687,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a0ee-cbd3-b553-1141" name="Special Equipment" hidden="false" collective="false" type="upgrade">
@@ -1794,7 +1790,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="68d0-f364-1f9b-c844" name="Light Armour" hidden="false" collective="false" type="upgrade">
@@ -1825,7 +1821,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1871,7 +1867,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="190">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="200">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1888,13 +1884,6 @@
                   <modifiers/>
                   <constraints/>
                 </categoryLink>
-                <categoryLink id="80a1-f3e7-d8f2-e0b3" name="New CategoryLink" hidden="false" targetId="2a59-0397-1496-1d3e" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
               </categoryLinks>
             </entryLink>
             <entryLink id="734c-36a5-bf1b-2191" name="Pegasus" hidden="false" targetId="cacf-1879-9a46-9c66" type="selectionEntry">
@@ -1902,7 +1891,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="80">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="60">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1926,7 +1915,7 @@
               <rules/>
               <infoLinks/>
               <modifiers>
-                <modifier type="set" field="24fd-8af8-0c78-001c" value="150">
+                <modifier type="set" field="24fd-8af8-0c78-001c" value="125">
                   <repeats/>
                   <conditions/>
                   <conditionGroups/>
@@ -1993,7 +1982,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6062-c823-724f-4b60" name="Wizard Adept" hidden="false" collective="false" type="upgrade">
@@ -2016,7 +2005,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="75.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="75.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9846-7ae9-7020-e330" name="Wizard Master" hidden="false" collective="false" type="upgrade">
@@ -2039,7 +2028,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="225.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="225.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2078,7 +2067,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d114-6659-4145-ff89" name="Pyromancy" hidden="false" collective="false" type="upgrade">
@@ -2094,7 +2083,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="946d-b325-86b9-e176" name="Divination" hidden="false" collective="false" type="upgrade">
@@ -2110,7 +2099,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d66e-1363-fb49-a8aa" name="Cosmology" hidden="false" collective="false" type="upgrade">
@@ -2126,7 +2115,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2136,7 +2125,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="125.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cc6a-e224-1943-b715" name="Inquisitor​" hidden="false" collective="false" type="upgrade">
@@ -2176,52 +2165,23 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="5"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="93d6-198e-b5c9-8205" name="Witch​ ​Hunter​" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="f03a-f704-bc27-30ae" name="Plate Armour" hidden="false" targetId="85fa-68ac-214d-2f4b" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>If the attack is allocated towards a model with Channel, failed to-wound rolls with it must be rerolled.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="f03a-f704-bc27-30ae" name="Heavy Armour" hidden="false" targetId="37ab-dde5-6b99-7c67" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="cc6a-e224-1943-b715" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e230-34c4-d417-6dcd" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
         <infoLink id="2731-d158-61a6-2056" name="Fearless" hidden="false" targetId="0ab3-2e1b-8c2b-a7fe" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-        <infoLink id="0e35-c31f-cff2-eb8e" name="Magic Resistance" hidden="false" targetId="3fbc-ceb2-b812-0e88" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="append" field="name" value=" (2)">
-              <repeats/>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </infoLink>
         <infoLink id="5e6d-9ea2-1094-ad15" name="Not a Leader" hidden="false" targetId="f611-6165-ada9-0d7d" type="rule">
           <profiles/>
@@ -2366,7 +2326,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fcc9-feb6-6464-a2ff" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -2397,26 +2357,28 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="e230-34c4-d417-6dcd" name="Plate Armour" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9547-6d94-0629-94b9" name="Blessed Steel" hidden="false" collective="false" type="upgrade">
           <profiles/>
-          <rules/>
-          <infoLinks>
-            <infoLink id="a791-390f-191c-c3ac" name="Plate Armour" hidden="false" targetId="85fa-68ac-214d-2f4b" type="profile">
+          <rules>
+            <rule id="0920-2fa8-b273-5161" name="Blessed Steel" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-            </infoLink>
-          </infoLinks>
+              <description>Attack Attribute - Close Combat.
+The model part gains +2 Agility. Close Combat Attacks made by the model part gain +1 Strength and +1 Armour Penetration.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7001-dd91-d910-1e29" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c511-b3ae-22a6-383c" type="max"/>
           </constraints>
           <categoryLinks>
-            <categoryLink id="18b9-914a-edac-7bbc" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+            <categoryLink id="2024-1ab0-ec6d-d109" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2428,12 +2390,12 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="80.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b7ab-45e0-7344-94f6" name="Weapons" hidden="false" collective="false">
+        <selectionEntryGroup id="b7ab-45e0-7344-94f6" name="Close Combat Weapons" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2469,7 +2431,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9af2-f82c-1873-be78" name="Paired Weapons" hidden="false" collective="false" type="upgrade">
@@ -2492,19 +2454,64 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="c340-c244-7b14-7bcb" name="Brace of Pistols (4+)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="aa2c-fc29-a4f1-0015" name="Halberd" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="5177-9e98-065e-44a1" name="Brace of Pistols" hidden="false" targetId="0a78-70b9-c34e-5752" type="profile">
+                <infoLink id="ab76-2941-ec0f-1c7a" name="Halberd" hidden="false" targetId="680b-8e56-dff9-240c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a73a-9566-1201-9705" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="91c0-f4af-fbbc-5bad" name="Shooting Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="37b9-12d8-4ad9-e956" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="69d7-393e-680f-a86a" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="9c35-72ab-d2f8-a93d" name="Crossbow (2+)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="7b2a-d3da-7191-5edd" name="Crossbow" hidden="false" targetId="fdf6-3c15-644b-1ced" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers>
-                    <modifier type="append" field="name" value=" (4+)">
+                    <modifier type="append" field="name" value=" (2+)">
                       <repeats/>
                       <conditions/>
                       <conditionGroups/>
@@ -2514,21 +2521,29 @@
               </infoLinks>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adfa-2f4c-2caa-0502" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01b9-87bf-50ea-bb10" type="max"/>
               </constraints>
-              <categoryLinks/>
+              <categoryLinks>
+                <categoryLink id="32fa-da71-b814-715c" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8ae0-b8eb-d377-5a62" name="Crossbow (3+)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="50e5-0833-8e67-6411" name="Brace of Pistols (3+)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
-                <infoLink id="d2ea-505a-537a-85e4" name="Crossbow" hidden="false" targetId="fdf6-3c15-644b-1ced" type="profile">
+                <infoLink id="53dc-406c-ed7f-4ec0" name="Brace of Pistols" hidden="false" targetId="0a78-70b9-c34e-5752" type="profile">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -2543,14 +2558,59 @@
               </infoLinks>
               <modifiers/>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ded7-a679-92b3-db23" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="228c-0c05-6aed-137e" type="max"/>
               </constraints>
-              <categoryLinks/>
+              <categoryLinks>
+                <categoryLink id="cce9-5789-d3f2-2e9d" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0718-9858-b705-3f92" name="Repeater Pistol (3+)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cae9-8c0b-ea83-ec62" name="Repeater Pistol" hidden="false" targetId="ceb6-ffaa-c9f3-a019" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (3+)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="911f-a493-bc51-c5fe" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5a9e-a052-b82f-be30" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="25.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2585,7 +2645,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="130.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="140.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bb34-a3af-2ede-80dd" name="Artificer" hidden="false" collective="false" type="upgrade">
@@ -2625,8 +2685,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="2"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2784,7 +2843,7 @@
           </selectionEntryGroups>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7b16-d5b5-bfc7-0d24" name="Army General" hidden="false" collective="false" type="upgrade">
@@ -2817,7 +2876,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2873,7 +2932,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="ded9-49da-1019-69e0" name="Handgun (3+)" hidden="false" collective="false" type="upgrade">
@@ -2902,7 +2961,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bcbb-3880-0076-5494" name="Long Rifle (3+)" hidden="false" collective="false" type="upgrade">
@@ -2931,7 +2990,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="904b-b913-f084-71a6" name="Repeater Gun (4+)" hidden="false" collective="false" type="upgrade">
@@ -2960,7 +3019,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3002,7 +3061,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="125.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="125.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd21-fe43-e8e5-42de" name="Heavy Infantry" hidden="false" collective="false" type="upgrade">
@@ -3042,8 +3101,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3130,7 +3188,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b27-15c1-7bc9-5a3e" name="Banner Enchantment" hidden="false" collective="false" type="upgrade">
@@ -3185,7 +3243,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3244,7 +3302,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6853-60b8-71f0-c03d" name="Halberd" hidden="false" collective="false" type="upgrade">
@@ -3283,7 +3341,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3310,7 +3368,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="-50.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="-50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6217-1fc8-7a46-c411" name="Light Infantry" hidden="false" collective="false" type="upgrade">
@@ -3350,8 +3408,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3437,7 +3494,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="13.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="13.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e026-d748-f05e-120d" name="Banner Enchantment" hidden="false" collective="false" type="upgrade">
@@ -3499,7 +3556,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2c93-8db0-0ada-4d05" name="Replace Crossbow with Handgun (4+)" hidden="false" collective="false" type="upgrade">
@@ -3536,7 +3593,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3567,7 +3624,7 @@
             </categoryLink>
           </categoryLinks>
           <selectionEntries>
-            <selectionEntry id="4aa9-2e34-9704-a752" name="Long Rifle (4+)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="4aa9-2e34-9704-a752" name="Long Rifle (3+)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3608,10 +3665,10 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="3a7a-c10b-ebe9-d1e7" name="Repeater Gun (5+)" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="3a7a-c10b-ebe9-d1e7" name="Repeater Gun (4+)" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks>
@@ -3652,7 +3709,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -3686,145 +3743,10 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c2dd-42c2-4f7f-543f" name="State Militia" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="844e-e709-da7d-2ed9" name="State Militia Global" hidden="false" profileTypeId="8292-1fb8-8251-29a9" profileTypeName="1 Global">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Adv" characteristicTypeId="b0d9-2dab-f10b-9b13" value="4&quot;"/>
-            <characteristic name="Mar" characteristicTypeId="db10-a838-f72f-3ed6" value="8&quot;"/>
-            <characteristic name="Dis" characteristicTypeId="be28-67a6-2280-9eaf" value="6"/>
-            <characteristic name="Size" characteristicTypeId="2e17-9c12-bfb4-59b0" value="Standard"/>
-            <characteristic name="Type" characteristicTypeId="3145-83b1-14d6-8023" value="Infantry"/>
-          </characteristics>
-        </profile>
-        <profile id="2080-71b8-b269-2241" name="State Militia Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Att" characteristicTypeId="8265-800f-bc87-d00a" value="1"/>
-            <characteristic name="Off" characteristicTypeId="7d3b-bb95-3d29-26f7" value="3"/>
-            <characteristic name="Str" characteristicTypeId="4d4a-2100-804f-99e5" value="3"/>
-            <characteristic name="AP" characteristicTypeId="7a8c-adb0-d1b8-a1b6" value="0"/>
-            <characteristic name="Agi" characteristicTypeId="2a23-367f-8828-c297" value="3"/>
-          </characteristics>
-        </profile>
-        <profile id="bcce-1778-f719-947d" name="State Militia Defensive" hidden="false" profileTypeId="e7d3-5099-e669-c365" profileTypeName="2 Defensive">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
-            <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
-            <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <rules>
-        <rule id="7583-4ed1-9399-46fc" name="Reserves" hidden="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <description>The unit is treated as Insignificant by Parent Units.</description>
-        </rule>
-      </rules>
-      <infoLinks>
-        <infoLink id="897f-949f-eb5f-3770" name="Paired Weapons" hidden="false" targetId="06d7-e62c-0123-95ec" type="profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="8847-73aa-11f3-35d1" name="Scoring" hidden="false" targetId="188e-05fb-8a95-60c8" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
-      <modifiers/>
-      <constraints>
-        <constraint field="selections" scope="roster" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8eb9-f997-78dd-3da9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="6b53-cebc-99af-f02d" name="New CategoryLink" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="true">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-        </categoryLink>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="95fd-5b27-1b0b-4b2d" name="State Militia" hidden="false" collective="false" type="upgrade">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="60.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f61-d556-914b-618d" type="max"/>
-            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="907b-81d3-ef0b-3ff6" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="5b66-baba-f902-1f0e" name="New CategoryLink" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="6.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <selectionEntryGroups/>
-      <entryLinks>
-        <entryLink id="8892-d1e9-bf37-b1d6" name="Command Group" hidden="false" targetId="b4c3-e840-1bd5-b746" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks>
-            <categoryLink id="1c32-fec7-6ae6-ecf5" name="New CategoryLink" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-            <categoryLink id="9205-e660-dcf7-bc79" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2cb4-3838-613c-723a" name="State Militia (Ranged Weapons)" hidden="false" collective="false" type="upgrade">
+    <selectionEntry id="2cb4-3838-613c-723a" name="State Militia" hidden="false" collective="false" type="upgrade">
       <profiles>
         <profile id="4bfa-9e78-4f2e-de7f" name="State Militia Global" hidden="false" profileTypeId="8292-1fb8-8251-29a9" profileTypeName="1 Global">
           <profiles/>
@@ -3861,8 +3783,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3872,23 +3793,39 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The unit is treated as Insignificant by Parent Units.</description>
+          <description>The unit is treated as Insignificant by Parent and Support Units.</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="8bab-e908-66a8-b8d1" name="Scoring" hidden="false" targetId="188e-05fb-8a95-60c8" type="rule">
+        <infoLink id="6c7b-1ea5-2cc6-c979" name="Bow" hidden="false" targetId="a564-30bf-f33f-f20d" type="profile">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="set" field="hidden" value="true">
+            <modifier type="append" field="name" value=" (4+)">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="2cb4-3838-613c-723a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9388-27ad-26f8-f692" type="equalTo"/>
-              </conditions>
+              <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </infoLink>
+        <infoLink id="6017-b832-9de5-3dc3" name="Pistol" hidden="false" targetId="12c1-3184-6230-c142" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value=" (4+)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="52ec-05ca-ce17-28f4" name="Light Troops" hidden="false" targetId="8b75-3cd5-bd70-6210" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
         </infoLink>
       </infoLinks>
       <modifiers/>
@@ -3918,7 +3855,7 @@
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="60.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63e-54d8-cfb1-2604" type="max"/>
+            <constraint field="selections" scope="parent" value="25.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63e-54d8-cfb1-2604" type="max"/>
             <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7283-c866-be6b-eb2d" type="min"/>
           </constraints>
           <categoryLinks>
@@ -3941,10 +3878,10 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="6.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="11.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="9388-27ad-26f8-f692" name="Gain Skirmisher and Lose Scoring" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="9388-27ad-26f8-f692" name="Gain Skirmisher" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -3994,139 +3931,11 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="b7a3-96ef-2aa7-ddbd" name="Ranged Weapon" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="191d-1e49-e339-4c85" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8431-2a19-bdda-4487" type="min"/>
-          </constraints>
-          <categoryLinks>
-            <categoryLink id="4944-e49d-ca35-7951" name="New CategoryLink" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-            </categoryLink>
-          </categoryLinks>
-          <selectionEntries>
-            <selectionEntry id="538b-52a2-3e8a-08ca" name="Bow (4+)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="65a9-c48b-3d9a-c390" name="Bow" hidden="false" targetId="a564-30bf-f33f-f20d" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="append" field="name" value=" (4+)">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="increment" field="24fd-8af8-0c78-001c" value="2">
-                  <repeats>
-                    <repeat field="selections" scope="2cb4-3838-613c-723a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e036-5a83-75f4-8eb6" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3437-01e1-673f-3428" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="8409-b9ca-306f-277a" name="New CategoryLink" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="4188-5628-a487-28ea" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3603-7dff-dd85-5c1b" name="Pistol (4+)" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="b854-8ab4-3e3d-75b1" name="Pistol" hidden="false" targetId="12c1-3184-6230-c142" type="profile">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers>
-                    <modifier type="append" field="name" value=" (4+)">
-                      <repeats/>
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </infoLink>
-              </infoLinks>
-              <modifiers>
-                <modifier type="increment" field="24fd-8af8-0c78-001c" value="4">
-                  <repeats>
-                    <repeat field="selections" scope="2cb4-3838-613c-723a" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e036-5a83-75f4-8eb6" repeats="1" roundUp="false"/>
-                  </repeats>
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff53-d00a-ee66-50db" type="max"/>
-              </constraints>
-              <categoryLinks>
-                <categoryLink id="6ac7-34b7-ca46-22da" name="New CategoryLink" hidden="false" targetId="4bcd-01c8-ce5e-7108" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-                <categoryLink id="e80b-4ce1-0648-669a" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <constraints/>
-                </categoryLink>
-              </categoryLinks>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+      <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="dbd8-09c3-04db-baf3" name="Command Group" hidden="false" targetId="b4c3-e840-1bd5-b746" type="selectionEntryGroup">
           <profiles/>
@@ -4153,7 +3962,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="994f-59e8-ca5c-eced" name="Electoral​ ​Cavalry​" hidden="false" collective="false" type="upgrade">
@@ -4223,8 +4032,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="2"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="2"/>
           </characteristics>
         </profile>
         <profile id="8bfb-9d66-49cc-d68b" name="Horse Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -4298,7 +4106,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2a01-37e3-f9b2-3b95" name="Banner Enchantment" hidden="false" collective="false" type="upgrade">
@@ -4353,7 +4161,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6d56-4c57-7b29-6de8" name="Shield" hidden="false" collective="false" type="upgrade">
@@ -4392,7 +4200,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8be5-6fb8-7f1f-3f0e" name="Knightly Orders" hidden="false" collective="false" type="upgrade">
@@ -4400,7 +4208,7 @@
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="increment" field="24fd-8af8-0c78-001c" value="10">
+            <modifier type="increment" field="24fd-8af8-0c78-001c" value="9">
               <repeats>
                 <repeat field="selections" scope="994f-59e8-ca5c-eced" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aac5-f506-0a44-23a0" repeats="1" roundUp="false"/>
               </repeats>
@@ -4410,7 +4218,7 @@
             <modifier type="set" field="4ec3-01a7-afe6-29d8" value="-1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="953d-22cd-7ee1-36dc" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11c8-5e24-f965-a22b" type="equalTo"/>
+                <condition field="selections" scope="953d-22cd-7ee1-36dc" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11c8-5e24-f965-a22b" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -4432,7 +4240,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6760-472d-d228-8314" name="May take a Cavalry Pick" hidden="false" collective="false" type="upgrade">
@@ -4463,7 +4271,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4522,7 +4330,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="528f-4eea-3844-0aa9" name="Great Weapon" hidden="false" collective="false" type="upgrade">
@@ -4537,7 +4345,7 @@
                 </infoLink>
               </infoLinks>
               <modifiers>
-                <modifier type="increment" field="24fd-8af8-0c78-001c" value="5">
+                <modifier type="increment" field="24fd-8af8-0c78-001c" value="4">
                   <repeats>
                     <repeat field="selections" scope="994f-59e8-ca5c-eced" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aac5-f506-0a44-23a0" repeats="1" roundUp="false"/>
                   </repeats>
@@ -4553,7 +4361,7 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4580,7 +4388,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e284-efdf-ac17-ba70" name="Imperial​ ​Guard​" hidden="false" collective="false" type="upgrade">
@@ -4620,8 +4428,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="4"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4692,7 +4499,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="18.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="19.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ae51-4103-3617-8898" name="Banner Enchantment" hidden="false" collective="false" type="upgrade">
@@ -4731,7 +4538,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f361-aecd-aca7-2ce5" name="Replace Shield with Great Weapon" hidden="false" collective="false" type="upgrade">
@@ -4762,7 +4569,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4778,7 +4585,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="-75.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="-105.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e18c-3280-0d47-8b63" name="Knights​ ​of​ ​the​ ​Sun​ ​Griffon​" hidden="false" collective="false" type="upgrade">
@@ -4818,8 +4625,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="4"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="1"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="1"/>
           </characteristics>
         </profile>
         <profile id="cec9-e8dd-c076-48e8" name="Sun Griffon Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -4876,6 +4682,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="39c2-2fed-4f61-5240" name="Shield" hidden="false" targetId="1da1-0128-4bf2-cf8d" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints>
@@ -4905,7 +4717,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="95.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="95.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="7612-f40e-9eb2-f996" name="Banner Enchantment" hidden="false" collective="false" type="upgrade">
@@ -4944,10 +4756,10 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="a06b-4dcc-f1a5-2293" name="Replace Halberd with Lance and Shield" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="a06b-4dcc-f1a5-2293" name="Replace Halberd with Lance" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks>
@@ -4957,15 +4769,9 @@
               <infoLinks/>
               <modifiers/>
             </infoLink>
-            <infoLink id="5416-242d-0875-6c15" name="Shield" hidden="false" targetId="1da1-0128-4bf2-cf8d" type="profile">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-            </infoLink>
           </infoLinks>
           <modifiers>
-            <modifier type="increment" field="24fd-8af8-0c78-001c" value="15">
+            <modifier type="increment" field="24fd-8af8-0c78-001c" value="12">
               <repeats>
                 <repeat field="selections" scope="e18c-3280-0d47-8b63" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e78-cdf8-2353-9755" repeats="1" roundUp="false"/>
               </repeats>
@@ -4981,7 +4787,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4997,7 +4803,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="-5.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="-5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a7dd-0b66-d973-431e" name="Imperial​ ​Rangers​" hidden="false" collective="false" type="upgrade">
@@ -5037,8 +4843,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5120,7 +4925,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="13.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="12.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4a2b-c06f-9a49-11b7" name="Champion" hidden="false" collective="false" type="upgrade">
@@ -5144,14 +4949,14 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="25.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0e1-5d93-be07-31b0" name="Reiters​" hidden="false" collective="false" type="upgrade">
@@ -5191,8 +4996,7 @@
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="3"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="1"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="1"/>
           </characteristics>
         </profile>
         <profile id="e93c-97d9-43af-9248" name="Horse Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -5215,8 +5019,8 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>At Initiative Step 10, a Charging model part with Fire on Impact may choose to forgo its normal Close Combat Attacks, and instead perform one Close Combat Attack if using a Pistol, or two Close Combat Attacks if using a Brace of Pistols or a Repeater Pistol.
-These Close Combat Attacks are resolved at Initiative Step 10 and have their Strength set ​to 4 and Armour Penetration set ​to 2 (regardless of the user’s Agility, Strength, and Armour Penetration).</description>
+          <description>Attack Attribute - Close Combat.
+A charging model part with Fire on Impact! using a Pistol, a Brace of Pistols, or a Repeater Pistol always strikes at Initiative Step 10, and has the Strength of its Close Combat Attacks set to 4 and their Armour Penetration set to 2 (regardless of the user&apos;s Agility, Strength, and Armour Penetration).</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5315,7 +5119,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="29.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a99b-d095-e353-ad0a" name="Champion" hidden="false" collective="false" type="upgrade">
@@ -5370,14 +5174,14 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="6fbc-08ad-df19-63e9" name="Musician" hidden="false" collective="false" type="upgrade">
@@ -5401,7 +5205,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="791b-d7b5-c7af-f7a5" name="Heavy Armour" hidden="false" collective="false" type="upgrade">
@@ -5433,7 +5237,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5474,7 +5278,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
                 </infoLink>
               </infoLinks>
               <modifiers>
-                <modifier type="increment" field="24fd-8af8-0c78-001c" value="6">
+                <modifier type="increment" field="24fd-8af8-0c78-001c" value="5">
                   <repeats>
                     <repeat field="selections" scope="e0e1-5d93-be07-31b0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="25e2-52e6-5a70-ea68" repeats="1" roundUp="false"/>
                   </repeats>
@@ -5498,7 +5302,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0264-fc40-7fb3-8d44" name="Repeater Gun (4+)" hidden="false" collective="false" type="upgrade">
@@ -5543,7 +5347,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="57a0-8f67-1424-4d79" name="Light Lance and Shield" hidden="false" collective="false" type="upgrade">
@@ -5580,7 +5384,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5590,7 +5394,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1dca-cb02-030a-ef74" name="Artillery" hidden="false" collective="false" type="upgrade">
@@ -5630,8 +5434,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="5"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="1"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5688,7 +5491,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
                   <characteristics>
                     <characteristic name="Range" characteristicTypeId="c2a8-bc01-360c-6aca" value="72&quot;"/>
                     <characteristic name="Shots" characteristicTypeId="6867-dcc2-7874-e3b4" value="1"/>
-                    <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="3[10]"/>
+                    <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="4[10]"/>
                     <characteristic name="AP" characteristicTypeId="857a-4ce1-d134-8701" value="0[10]"/>
                     <characteristic name="Attributes" characteristicTypeId="d988-3828-5f00-7582" value="Cannon, [Multiple Wounds (D3+1, Clipped Winds)]"/>
                   </characteristics>
@@ -5726,7 +5529,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="255.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="250.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a1bf-8bbf-2437-9757" name="Volley Gun (4+)" hidden="false" collective="false" type="upgrade">
@@ -5764,7 +5567,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="200.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="200.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="55c3-ea0c-777b-00ce" name="Mortar (4+)" hidden="false" collective="false" type="upgrade">
@@ -5802,7 +5605,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="200.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="200.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="095f-c036-8c94-0b45" name="Imperial​ ​Rocketeer​ (4+)" hidden="false" collective="false" type="upgrade">
@@ -5840,7 +5643,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="165.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="160.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5850,7 +5653,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="23fa-443a-7d84-7fc2" name="Arcane Engine" hidden="false" collective="false" type="upgrade">
@@ -5890,8 +5693,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="5"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="5"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="2"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="2"/>
           </characteristics>
         </profile>
         <profile id="4a9b-6025-3c5d-313d" name="Crew (2) Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -5977,7 +5779,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
         <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d1c-8555-899f-a986" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="f2ec-f8fe-8b54-118b" name="New CategoryLink" hidden="false" targetId="2a59-0397-1496-1d3e" primary="true">
+        <categoryLink id="ac79-cc5c-06a6-bcbb" name="New CategoryLink" hidden="false" targetId="f8f1-3d4f-12bf-73cd" primary="true">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -6027,7 +5829,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="95d3-4682-f3f3-9e1e" name="Foresight" hidden="false" collective="false" type="upgrade">
@@ -6059,7 +5861,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6069,7 +5871,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="280.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="290.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9362-c4d4-f0fe-84e7" name="Flagellants" hidden="false" collective="false" type="upgrade">
@@ -6109,8 +5911,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="1"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="1"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6127,7 +5928,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When a model with Fanatical is killed by a Melee Attack, remove it as a casualty only at Initiative Step 0.</description>
+          <description>When a model with Fanatical is killed by a Melee Attack, remove it as a casualty only at the end of Initiative Step 0.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6192,7 +5993,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="18.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="18.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8b09-082d-f0fb-a8f2" name="Champion" hidden="false" collective="false" type="upgrade">
@@ -6216,14 +6017,14 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="-40.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="-50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92cc-2df6-7b8c-4b24" name="Steam​ ​Tank​" hidden="false" collective="false" type="upgrade">
@@ -6263,8 +6064,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="7"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="3"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="6"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="6"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="6"/>
           </characteristics>
         </profile>
         <profile id="264f-e284-9a23-4447" name="Steel Ram Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -6288,7 +6088,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <characteristics>
             <characteristic name="Range" characteristicTypeId="c2a8-bc01-360c-6aca" value="36&quot;"/>
             <characteristic name="Shots" characteristicTypeId="6867-dcc2-7874-e3b4" value="1"/>
-            <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="2[7]"/>
+            <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="3[7]"/>
             <characteristic name="AP" characteristicTypeId="857a-4ce1-d134-8701" value="0[6]"/>
             <characteristic name="Attributes" characteristicTypeId="d988-3828-5f00-7582" value="[Multiple Wounds (D3, Clipped Wings)]"/>
           </characteristics>
@@ -6401,7 +6201,554 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="440.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="450.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="53f6-c4b8-4420-0d89" name="Inquisitor​ (Silver Shots)" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="c705-d0a3-f8a8-123d" name="Inquisitor​ Global" hidden="false" profileTypeId="8292-1fb8-8251-29a9" profileTypeName="1 Global">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Adv" characteristicTypeId="b0d9-2dab-f10b-9b13" value="4&quot;"/>
+            <characteristic name="Mar" characteristicTypeId="db10-a838-f72f-3ed6" value="8&quot;"/>
+            <characteristic name="Dis" characteristicTypeId="be28-67a6-2280-9eaf" value="8"/>
+            <characteristic name="Size" characteristicTypeId="2e17-9c12-bfb4-59b0" value="Standard"/>
+            <characteristic name="Type" characteristicTypeId="3145-83b1-14d6-8023" value="Infantry"/>
+          </characteristics>
+        </profile>
+        <profile id="2652-a8be-34ef-e8ef" name="Inquisitor​ Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Att" characteristicTypeId="8265-800f-bc87-d00a" value="2"/>
+            <characteristic name="Off" characteristicTypeId="7d3b-bb95-3d29-26f7" value="5"/>
+            <characteristic name="Str" characteristicTypeId="4d4a-2100-804f-99e5" value="4"/>
+            <characteristic name="AP" characteristicTypeId="7a8c-adb0-d1b8-a1b6" value="1"/>
+            <characteristic name="Agi" characteristicTypeId="2a23-367f-8828-c297" value="4"/>
+          </characteristics>
+        </profile>
+        <profile id="b560-8fc4-5aec-5a86" name="Inquisitor​ Defensive" hidden="false" profileTypeId="e7d3-5099-e669-c365" profileTypeName="2 Defensive">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="3"/>
+            <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="5"/>
+            <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a0c1-fed8-c82f-0de8" name="Silver Shots" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Attack Attribute - Shooting.
+The attack gains Multiple Wounds (D3), Lethal Strike, and must reroll failed to-wound rolls.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="bfde-fa63-fcd2-2a3d" name="Plate Armour" hidden="false" targetId="85fa-68ac-214d-2f4b" type="profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5517-77a8-8dc7-7e5e" name="Fearless" hidden="false" targetId="0ab3-2e1b-8c2b-a7fe" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2b54-7008-d1bb-b151" name="Not a Leader" hidden="false" targetId="f611-6165-ada9-0d7d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="55b7-a067-d479-f74e" name="Lethal Strike" hidden="false" targetId="f433-7645-0332-97a4" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5f58-d4bf-6571-45bd" name="Multiple Wounds" hidden="false" targetId="2ea2-3a42-de1e-bc0a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value=" (D3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eabb-3bb6-8481-969e" name="Light Troops" hidden="false" targetId="8b75-3cd5-bd70-6210" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="53f6-c4b8-4420-0d89" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b403-cb82-ea15-3b55" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a98b-7228-5c28-bbe4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5823-7885-c1c7-ecfc" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="3d9d-54ac-01a8-1149" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6965-ce4c-e264-2d0a" name="Special Equipment" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d99e-c69a-9b66-c433" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="6bf8-2808-7deb-7067" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="fd01-363f-6130-2202" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="d1dd-ffee-4176-f37a" name="Special Equipment" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="24fd-8af8-0c78-001c" scope="parent" value="100.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf60-af6b-1635-bcd2" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="a032-0f07-1699-3a1b" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+                <categoryLink id="0d81-bc30-1cea-cffc" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="30a9-c058-f831-8c82" name="Artefacts" hidden="false" targetId="b0ad-eb3e-4b5c-29c0" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks>
+                    <categoryLink id="193e-09d1-ce0b-645d" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </categoryLink>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink id="e7c1-314e-bc7c-265c" name="Weapon Enchantments" hidden="false" targetId="b7c0-c16c-b10e-715e" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks>
+                    <categoryLink id="fcc6-3d31-7ddd-b4a6" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </categoryLink>
+                  </categoryLinks>
+                </entryLink>
+                <entryLink id="5d6e-8d7c-43ad-10d9" name="Armour Enchantments" hidden="false" targetId="98d6-19e5-b41f-5703" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks>
+                    <categoryLink id="b627-8d61-f58c-eb2c" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints/>
+                    </categoryLink>
+                  </categoryLinks>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2278-3552-d27e-4be6" name="Shield" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="acac-8d60-ae83-206e" name="Shield" hidden="false" targetId="1da1-0128-4bf2-cf8d" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e64-628d-3970-31c8" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="1d32-eef7-1a3d-1826" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="ef5e-8750-3a4b-433d" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b08-1f6d-feb5-279b" name="Close Combat Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks>
+            <categoryLink id="48fc-ed10-4cfd-3fd0" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="1456-ac3e-b118-0305" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="c76d-f5cb-0c51-d02d" name="Great Weapon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3b1d-d230-1014-eb6f" name="Great Weapon" hidden="false" targetId="ce6c-6fd5-c795-da76" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a10-b0f3-76a5-6538" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1a34-e0c6-a9e5-f2be" name="Paired Weapons" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ca4b-75a5-9911-10ac" name="Paired Weapons" hidden="false" targetId="06d7-e62c-0123-95ec" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d07-0b92-9195-f026" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1817-25a5-db63-6d17" name="Halberd" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="2dd2-3960-b372-874a" name="Halberd" hidden="false" targetId="680b-8e56-dff9-240c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48bd-e626-761d-e389" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d060-6761-317f-eb27" name="Shooting Weapons" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="672b-f023-8032-7c8a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="adb9-3836-6cbe-1f58" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="b926-d03e-1154-feef" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="f8cf-300a-5043-0089" name="Crossbow (2+)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="114a-21c9-a169-de85" name="Crossbow" hidden="false" targetId="fdf6-3c15-644b-1ced" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (2+)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b003-bd68-9ddc-998a" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="efcd-e323-a6b0-7967" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7561-de75-393d-e503" name="Brace of Pistols (3+)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="644d-0ae1-30aa-52f4" name="Brace of Pistols" hidden="false" targetId="0a78-70b9-c34e-5752" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (3+)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="398d-1ebc-a29a-8a2e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="6c04-1dff-498d-d78f" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e143-fb35-43f2-f63b" name="Repeater Pistol (3+)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3e08-5e15-955d-ee52" name="Repeater Pistol" hidden="false" targetId="ceb6-ffaa-c9f3-a019" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="append" field="name" value=" (3+)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45c8-c990-92e3-d52f" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="87ec-4540-59a7-ecd8" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b403-cb82-ea15-3b55" name="Horse" hidden="false" targetId="10e6-5007-fc0c-e82a" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="24fd-8af8-0c78-001c" value="70">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cda-8d4a-30fb-070a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8cd7-d258-7c23-388d" name="New CategoryLink" hidden="false" targetId="953d-22cd-7ee1-36dc" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="8e85-78ba-67a8-1153" name="New CategoryLink" hidden="false" targetId="cf04-8e72-df44-eac3" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="220.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -6444,8 +6791,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="C"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="C"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="C"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="C+2"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="C+2"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6465,7 +6811,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cacf-1879-9a46-9c66" name="Pegasus" hidden="false" collective="false" type="upgrade">
@@ -6505,8 +6851,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="C"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="C"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="4"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="C+1"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="C+1"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6526,7 +6871,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f733-dce6-f27c-3607" name="Young Griffon" hidden="false" collective="false" type="upgrade">
@@ -6566,8 +6911,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="C"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="C"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="C"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="C+1"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="C+1"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6593,7 +6937,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ceb-e9be-fa78-150f" name="Great Griffon" hidden="false" collective="false" type="upgrade">
@@ -6633,8 +6977,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="4"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="C"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="5"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="C"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="C"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6666,7 +7009,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca5d-3e42-5f9e-8e71" name="Dragon" hidden="false" collective="false" type="upgrade">
@@ -6706,8 +7049,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="6"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="5"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="6"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="4"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -6741,7 +7083,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6944-42d1-8941-6450" name="Arcane Engine" hidden="false" collective="false" type="upgrade">
@@ -6781,8 +7123,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="5"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="C"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="5"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="C+2"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="C+2"/>
           </characteristics>
         </profile>
         <profile id="358b-5ec0-b4bd-8533" name="Crew (2) Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -6900,7 +7241,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d3f6-9f45-8606-55bc" name="Foresight" hidden="false" collective="false" type="upgrade">
@@ -6924,7 +7265,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+                <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -6934,7 +7275,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d97-387f-45ee-5f63" name="Altar​ ​of​ ​Battle" hidden="false" collective="false" type="upgrade">
@@ -6974,8 +7315,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
             <characteristic name="HP" characteristicTypeId="f381-7850-7fa8-3440" value="5"/>
             <characteristic name="Def" characteristicTypeId="160d-4624-273f-2114" value="C"/>
             <characteristic name="Res" characteristicTypeId="ec15-bc66-645e-db5d" value="5"/>
-            <characteristic name="AS" characteristicTypeId="597b-8735-3dd1-0e70" value="C"/>
-            <characteristic name="Spe" characteristicTypeId="2f78-472b-a950-385a"/>
+            <characteristic name="Arm" characteristicTypeId="597b-8735-3dd1-0e70" value="C"/>
           </characteristics>
         </profile>
         <profile id="097e-e47e-25a1-fec0" name="Chassis Offensive" hidden="false" profileTypeId="154c-6605-1486-e1da" profileTypeName="3 Offensive">
@@ -6998,7 +7338,7 @@ These Close Combat Attacks are resolved at Initiative Step 10 and have their Str
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>All friendly units within 6&quot; of the model gains Hatred. Model parts with Harnessed are not affected.
+          <description>All models in friendly units within 6&quot; of the bearer gain Hatred. Model parts with Harnessed are not affected.
 All Blessings Bound Spells cast by the rider have Type: Aura and Range 6&quot; (replaces Type: Caster’s Unit).
 The model can cast Unerring Strike from Divination as a Bound Spell with Power Level (4/8).</description>
         </rule>
@@ -7068,7 +7408,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="60e0-a887-6970-1fc7" name="Army General" hidden="false" collective="false" type="upgrade">
@@ -7094,7 +7434,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53e0-007c-21bc-d3cc" name="Battle Standard Bearer" hidden="false" collective="false" type="upgrade">
@@ -7119,7 +7459,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
+        <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -7159,7 +7499,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="160.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="155.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fb7f-0cdc-3f83-58a3" name="Death​ ​Warrant​" hidden="false" collective="false" type="upgrade">
@@ -7194,7 +7534,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="55.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9fd6-43b0-e619-fa1a" name="Hammer​ ​of​ ​Witches​" hidden="false" collective="false" type="upgrade">
@@ -7222,7 +7562,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7272,7 +7612,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="8efe-4463-a54c-b67b" name="Imperial​ ​Seal​" hidden="false" collective="false" type="upgrade">
@@ -7300,7 +7640,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="90.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="100.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d059-f85a-e731-1bb1" name="Shield​ ​of​ ​Volund​" hidden="false" collective="false" type="upgrade">
@@ -7337,7 +7677,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="30.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="20.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1cc6-87e4-05ec-b8d6" name="Witchfire​ ​Guard​" hidden="false" collective="false" type="upgrade">
@@ -7349,7 +7689,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Shield enchantment."/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer gains Aegis (5+) against Magical Attacks. Miscasts suffered by enemy models within 12” of the bearer gain a +1 Miscast Modifier."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="The bearer gains Aegis (4+) against Magical Attacks."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7374,7 +7714,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="45.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7447,7 +7787,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="90.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="80.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3907-d67c-4902-fd03" name="Exemplar’s​ ​Flame​" hidden="false" collective="false" type="upgrade">
@@ -7475,7 +7815,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="60.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e1a3-307a-ba39-b0d4" name="Locket​ ​of​ ​Sunna​" hidden="false" collective="false" type="upgrade">
@@ -7487,7 +7827,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value=""/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="When fighting in a Duel, choose a single model part of the model that the bearer is fighting with. This cannot be a model part with Harnessed or Inanimate.  The bearer must swap its Characteristic values of Strength, Armour Penetration, Resilience, Agility, and Attack Value with those of the chosen model part. This is done before applying other modifiers."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="When fighting in a Duel, choose a single model part with neither Harnessed nor Inanimate that the bearer is fighting with.  The bearer must swap its Characteristic values of Strength, Armour Penetration, Resilience, Agility, and Attack Value with those of the chosen model part. This is done before applying other modifiers."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7503,7 +7843,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="70.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="70.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="59d7-48fb-e8c5-3340" name="Mantle​ ​of​ ​Ullor​" hidden="false" collective="false" type="upgrade">
@@ -7531,7 +7871,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="35.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="25.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="35b1-4d99-c535-6586" name="Karadon&apos;s Courser " hidden="false" collective="false" type="upgrade">
@@ -7559,7 +7899,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="50.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7585,7 +7925,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value="Parent Units Only"/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="Whenever the bearer’s unit is targeted by an Order, an additional Order can be given (for free) to a single Support Unit within 6&quot; of the bearer’s unit."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="Whenever the bearer’s unit is targeted by an Order, an additional Order can be given (for free) to a single Support Unit within 8&quot; of the bearer’s unit."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7601,7 +7941,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="35.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5366-4998-8b9b-e744" name="Household​ ​Standard​" hidden="false" collective="false" type="upgrade">
@@ -7613,7 +7953,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
               <modifiers/>
               <characteristics>
                 <characteristic name="Type" characteristicTypeId="d779-a728-a38c-8340" value=""/>
-                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="If the General is part of the bearer’s unit, its Commanding Presence range and the range within which it can issue Orders (if it has Orders) are both increased by 6”."/>
+                <characteristic name="Effect" characteristicTypeId="9f42-950f-d2ed-9247" value="If the General is part of the bearer’s unit, its Commanding Presence range is increased by 6”."/>
               </characteristics>
             </profile>
           </profiles>
@@ -7629,7 +7969,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="40.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f8e9-a3e5-a1e0-bc3e" name="Marksman’s​ ​Pennant​" hidden="false" collective="false" type="upgrade">
@@ -7657,7 +7997,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
+            <cost name="pts" costTypeId="24fd-8af8-0c78-001c" value="10.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7800,7 +8140,7 @@ The model can cast Unerring Strike from Divination as a Bound Spell with Power L
       <infoLinks/>
       <modifiers/>
       <description>Blessings
-The model part and all model parts in the same unit, ​except model parts with Harnessed gain Hatred. The model can cast the following three Bound Spells with Power Level ( ​4/8 ​) with Type: Caster’s Unit and Augment, and Duration: Lasts One Turn:
+All models in the bearer&apos;s unit gain Hatred. Model parts with Harnessed are not affected. The model can cast the following three Bound Spells with Power Level ( ​4/8 ​) with Type: Caster’s Unit and Augment, and Duration: Lasts One Turn:
 Ullor’s ​ ​Blessing - The ​ ​target ​ ​gains ​ ​Aegis ​ ​(5+) ​ ​against Melee ​ ​Attacks.
 Sunna’s ​ ​Blessing - The ​ ​target ​ ​gains ​ ​Flaming ​ ​Attacks. ​ ​All enemy ​ ​units ​ ​in ​ ​base ​ ​contact ​ ​with ​ ​one or ​ ​more ​ ​targets ​ ​of ​ ​this ​ ​spell, ​ ​when ​ ​the spell ​ ​is ​ ​cast, ​ ​suffer ​ ​D6 ​ ​hits ​ ​with Strength ​ ​4, ​ ​Armour ​ ​Penetration ​ ​1, Flaming ​ ​Attacks, ​ ​and ​ ​Magical ​ ​Attacks.
 Volund’s ​ ​Blessing - The ​ ​target ​ ​must ​ ​reroll ​ ​failed to-wound ​ ​rolls ​ ​with ​ ​Melee ​ ​Attacks.</description>
@@ -7828,7 +8168,7 @@ Support Units within 8” of at least one Parent Unit gain Fight in Extra Rank a
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <description>A Character with Orders may give a single order to a Parent or Support Unit within 6&quot;. A General with Orders may instead give a single order to a friendly Parent or Support Unit within 12&quot;. Orders are given at the start of each friendly Player Turn. The effects of orders apply immediately to the target unit and last until the end of the next Player Turn. A unit cannot receive the same Order more than once during the same turn. Only ​models of Standard Size ​are affected. The available ​ ​orders ​ ​are ​ ​listed ​ ​below:
+      <description>A Character with Orders may give a single order to a Parent or Support Unit within 8&quot;. A General with Orders may instead give a single order to a friendly Parent or Support Unit within the range of its Commanding Presence. Orders are given at the start of each friendly Player Turn. The effects of orders apply immediately to the target unit and last until the end of the next Player Turn. A unit cannot receive the same Order more than once during the same turn. Only ​models of Standard Size ​are affected. The available ​ ​orders ​ ​are ​ ​listed ​ ​below:
 On ​ ​The ​ ​Double! - The ​ ​target ​ ​gains ​ ​​+1 ​ ​Advance ​ ​Rate ​ ​​and ​ ​+4 ​ ​March ​ ​Rate. 
 Steady, ​ ​Men! - Discipline Tests taken by the target are subject to Minimised Roll. A unit that receives this Order and passes a Rally Test doesn’t become ​Shaken, and the Reform that is made after Rallying doesn’t prevent the unit from moving and/or shooting (but it still counts as having moved for shooting purposes).
 Ready! Aim! ​Fire! - The target​ ​gains​ ​​Accurate.
@@ -7844,7 +8184,7 @@ Brace ​For​ ​Impact! - The​ ​target​ ​gains​ ​Fight ​in​ �
       <characteristics>
         <characteristic name="Str" characteristicTypeId="7d4e-b182-dd11-52a0" value="-"/>
         <characteristic name="AP" characteristicTypeId="646b-1e72-1589-5083" value="+2"/>
-        <characteristic name="Attributes" characteristicTypeId="048a-df92-bb5b-6de9" value="This weapon cannot be enchanted with Weapon Enchantments."/>
+        <characteristic name="Attributes" characteristicTypeId="048a-df92-bb5b-6de9" value=""/>
       </characteristics>
     </profile>
     <profile id="29fc-4011-201c-832c" name="Repeater ​Gun" hidden="false" profileTypeId="a00c-d586-ee68-ed21" profileTypeName="6 Ranged Weapon">
@@ -7883,7 +8223,7 @@ Brace ​For​ ​Impact! - The​ ​target​ ​gains​ ​Fight ​in​ �
         <characteristic name="Shots" characteristicTypeId="6867-dcc2-7874-e3b4" value="1"/>
         <characteristic name="Str" characteristicTypeId="f166-13ff-9227-4525" value="5"/>
         <characteristic name="AP" characteristicTypeId="857a-4ce1-d134-8701" value="3"/>
-        <characteristic name="Attributes" characteristicTypeId="d988-3828-5f00-7582" value="​Multiple​ ​Wounds​ ​(2,​ ​against ​​Standard), ​​Unwieldy, ​Accurate."/>
+        <characteristic name="Attributes" characteristicTypeId="d988-3828-5f00-7582" value="​Multiple​ ​Wounds​ ​(2,​ ​against ​​Standard), ​​Unwieldy"/>
       </characteristics>
     </profile>
     <profile id="0a78-70b9-c34e-5752" name="Brace of Pistols" hidden="false" profileTypeId="a00c-d586-ee68-ed21" profileTypeName="6 Ranged Weapon">
